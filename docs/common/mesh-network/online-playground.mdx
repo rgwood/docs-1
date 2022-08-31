@@ -30,7 +30,7 @@ For using the Big Peer with an OAuth client suitable for production, use
 [Online With Authentication](../security/online-with-authentication).
 :::
 
-To get started, you can syncronize with the Ditto Big Peer using
+To get started, you can synchronize with the Ditto Big Peer using
 the **Online Playground** . These apps can sync with the Big Peer if
 they have the same `appID`.  Online Playground applications have __no
 restrictions to data__. Online playgrounds are perfect for learning
@@ -44,7 +44,7 @@ about how to use Ditto's APIs without worrying about security architecture.
 Online Playground devices must connect to the internet first
 *before* going offline. Once the device connects to the internet, it creates a
 certificate that can be used to authenticate while offline. Once offline, the
-device can syncronize for one week. After one week, the certificate will expire, and the device
+device can synchronize for one week. After one week, the certificate will expire, and the device
 must re-connect to the Internet to get a new certificate. Use
 [OnlineWithAuthentication](../guides/authentication/intro) if a device needs to
 be offline for more than one week.
@@ -63,6 +63,6 @@ To find your **appID**, go to your app in the Ditto portal and find the __Authen
 
 Online Playground requires that devices must first connect to the Big Peer
 to create [a X.509 certificate](../how-it-works/certificate-security). This
-certificate ensures that devices are allowed to syncronize with each other
-either offline or online. Online Playground allows anyone to syncronize until
+certificate ensures that devices are allowed to synchronize with each other
+either offline or online. Online Playground allows anyone to synchronize until
 the certificate expires.

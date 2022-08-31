@@ -14,7 +14,7 @@ significant amount of time before connecting back with other devices.
 
 If the shape of your documents are significantly different on that device, there
 could be documents that do not conform with your new application code.
-Syncronizing with this "couch device" could cause other devices to crash
+Synchronizing with this "couch device" could cause other devices to crash
 unexpectedly in production.
 
 ## When do I version my documents?
@@ -147,7 +147,7 @@ func decode(car: DittoDocument) -> V1Car {
 
 ### Supporting the latest version
 
-When a new application version is detected, you can stop syncronizing. You can detect that a new application version is available by querying for a
+When a new application version is detected, you can stop synchronizing. You can detect that a new application version is available by querying for a
 `_schemaVersion` that is greater than the current version. If a new version is
 detected, stop sync and tell the user they need to upgrade their app to the
 latest version. 

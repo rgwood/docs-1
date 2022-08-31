@@ -20,7 +20,7 @@ All RPC requests are POST requests to `https://{app_id}.cloud.ditto.live/api/v2/
     "servers": [
       {
         "url": "https://{app_id}.cloud.ditto.live/api/v2/store",
-        "description": "The Ditto Big Peer that syncronizes and makes data availabile cloud compute & storage.",
+        "description": "The Ditto Big Peer that synchronizes and makes data availabile cloud compute & storage.",
         "variables": {
           "app_id": {
             "default": "REPLACE_WITH_MY_APP_ID",

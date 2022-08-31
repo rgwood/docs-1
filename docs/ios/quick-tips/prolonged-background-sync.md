@@ -4,7 +4,7 @@ sidebar_position: 5
 ---
 
 iOS apps will stop Ditto's sync protocol when the application is put into the
-background. If you need Ditto to continue syncronizing while the application is
+background. If you need Ditto to continue synchronizing while the application is
 in the background, you need to tell iOS to keep the app active. To do this, we
 recommend playing silent music in the background.
 

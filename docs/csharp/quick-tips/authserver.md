@@ -2,7 +2,7 @@
 
 You can configure the C# SDK itself as a Ditto-standard authentication service.
 The server looks at the incoming credentials to decide whether to let a peer
-syncronize with the server or not. You provide all of the signing and verifying
+synchronize with the server or not. You provide all of the signing and verifying
 keys yourself through the SDK, thereby making the resulting JWTs ([JSON Web
 Tokens](https://jwt.io/)) properly authenticate with Ditto. 
 
