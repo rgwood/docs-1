@@ -14,9 +14,3 @@ on multiple collections more efficiently using this method.
 
 
 <SnippetGroup name="write-transaction" />
-
-:::warning
-You must use the scoped collection within a write transaction, as in the above example. For example, `txn.scoped("collection_name").find(query).exec()`.
-
-Using `ditto.store.collection(...)` will cause a panic at runtime. 
-:::
